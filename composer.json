@@ -1,0 +1,6 @@
+
+{
+    "require": {
+        "jigsaw/jigsaw": "dev-master"
+    }
+}

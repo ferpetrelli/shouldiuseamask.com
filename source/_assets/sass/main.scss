@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "colors.scss";
+
+@font-face {
+  font-family: "AldotheApache";
+  src: url("/assets/fonts/AldotheApache.ttf") format("truetype");
+}
+
+.text-main {
+    font-size: 9em;
+}
+
+@import "tailwindcss/utilities";
