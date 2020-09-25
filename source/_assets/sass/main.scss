@@ -1,15 +1,26 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-
-@import "colors.scss";
+@import "animations.scss";
 
 @font-face {
   font-family: "AldotheApache";
   src: url("/assets/fonts/AldotheApache.ttf") format("truetype");
 }
 
-.text-main {
-    font-size: 9em;
+.full-screen {
+  min-height: 100vh;
+}
+
+.question {
+  @apply w-full px-5 font-title-main text-custom-main-text text-4xl;
+}
+
+.answer {
+  @apply w-full pl-20 font-title-main text-custom-text text-4xl;
+}
+
+html {
+  height: -webkit-fill-available;
 }
 
 @import "tailwindcss/utilities";
